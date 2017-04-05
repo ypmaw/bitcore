@@ -82,8 +82,8 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.14",
-    "bitcore-node": "satoshilabs/bitcore-node#1cde2a817d7e9929a7c7084574465ba2f78fc99a",
+    "bitcore-lib": "satoshilabs/bitcore-lib#9f7930f9e4e3849938e09fcec985de4ef85a535d",
+    "bitcore-node": "satoshilabs/bitcore-node#a687223483f9b5f034bfdad7fac5c6e509fe7d41",
     "insight-api": "^0.4.0",
     "insight-ui": "^0.4.0"
   },
