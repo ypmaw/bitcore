@@ -82,10 +82,10 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib": "str4d/bitcore-lib-zcash",
-    "bitcore-node": "runn1ng/bitcore-node-zcash#2f25250ba839fd39df0d995395d272b31fe873a7",
-    "insight-api": "str4d/insight-api-zcash",
-    "insight-ui": "str4d/insight-ui-zcash"
+    "bitcore-lib-zcash": "str4d/bitcore-lib-zcash",
+    "bitcore-node-zcash": "runn1ng/bitcore-node-zcash#2f25250ba839fd39df0d995395d272b31fe873a7",
+    "insight-api-zcash": "str4d/insight-api-zcash",
+    "insight-ui-zcash": "str4d/insight-ui-zcash"
   },
   "license": "MIT",
   "devDependencies": {

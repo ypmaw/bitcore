@@ -1,7 +1,7 @@
 #!/usr/bin/env nodejs
 
-var bitcore = require('bitcore-node/lib/cli/bitcore');
+var bitcore = require('bitcore-node-zcash/lib/cli/bitcore');
 var path = require('path');
 var servicesPath = path.resolve(__dirname, '../');
-var additionalServices = ['insight-api', 'insight-ui'];
+var additionalServices = ['insight-api-zcash', 'insight-ui-zcash'];
 bitcore(servicesPath, additionalServices);
