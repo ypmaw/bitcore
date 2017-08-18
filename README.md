@@ -1,6 +1,16 @@
 Bitcore
 =======
 
+This is SatoshiLabs fork of Bitpay's Bitcore that uses Bitcoin 0.14.2. It has a limited segwit support.
+
+We (SatoshiLabs) are not promising to keep these forks "alive", updated and maintained, long-term. For that reason, they are not pushed into NPM, just on github.
+
+However, right now, we are actively using these in production on https://wallet.trezor.io . 
+
+Following is original Bitcore readme.
+
+----
+
 [![NPM Package](https://img.shields.io/npm/v/bitcore.svg?style=flat-square)](https://www.npmjs.org/package/bitcore)
 [![Build Status](https://img.shields.io/travis/bitpay/bitcore.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore)
 
