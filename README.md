@@ -1,11 +1,13 @@
 Bitcore
 =======
 
-This is SatoshiLabs fork of Bitpay's Bitcore that uses Bitcoin 0.14.2. It has a limited segwit support.
+This is SatoshiLabs fork of Bitpay's Bitcore that uses Bitcoin 0.15.0. It has a limited segwit support.
 
 We (SatoshiLabs) are not promising to keep these forks "alive", updated and maintained, long-term. For that reason, they are not pushed into NPM, just on github.
 
 However, right now, we are actively using these in production on https://wallet.trezor.io . 
+
+What is also added is support for new smart fees; `/utils/estimatesmartfee?nbBlocks=2&mode=economical` returns the new smart fees. Similarly, estimatesmartfee (with `int bool` parameters) is added to the bitcore websocket API.
 
 Following is original Bitcore readme.
 
